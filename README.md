@@ -4,6 +4,8 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![Keras](https://img.shields.io/badge/Keras-2.x-red)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24-yellow)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.x-red)
+![Torchvision](https://img.shields.io/badge/Torchvision-0.8+-lightgrey)
 
 ## Overview
 
@@ -34,7 +36,7 @@ To run this project, you will need the following Python libraries:
 You can install the required libraries using the following command:
 
 ```bash
-pip install tensorflow keras scikit-learn matplotlib numpy pandas opencv-python
+pip install tensorflow keras scikit-learn torch torchvision matplotlib numpy pandas opencv-python
 ```
 
 ## Performance Metrics
