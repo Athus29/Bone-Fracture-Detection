@@ -35,3 +35,29 @@ You can install the required libraries using the following command:
 
 ```bash
 pip install tensorflow keras scikit-learn matplotlib numpy pandas opencv-python
+```
+
+## Performance Metrics
+
+The following metrics were used to evaluate the performance of the models:
+
+- **Accuracy**: Measures the overall correctness of the model by calculating the proportion of correctly classified instances.
+- **Precision**: Focuses on the accuracy of positive predictions.
+- **Recall**: Measures how well the model identifies true positive cases.
+- **F1 Score**: The harmonic mean of precision and recall, providing a balance between the two.
+- **Confusion Matrix**: Displays the number of true positives, true negatives, false positives, and false negatives, providing a clear picture of the model's performance.
+
+### Results:
+
+- **ResNet**:
+  - Training Accuracy: 70%
+  - Validation Accuracy: 40%
+  - F1 Score for the Fractured class: 0.40
+
+- **DenseNet**:
+  - Training Accuracy: 73%
+  - Validation Accuracy: 66%
+  - F1 Score for the Fractured class: 0.83 (Precision: 0.73, Recall: 0.95)
+
+DenseNet demonstrated better generalization and robustness, making it more suitable for clinical applications.
+
